@@ -1,0 +1,86 @@
+/**
+ * @author: Gustavo Guimar‹es
+ * @data: 23/01/2013 
+ * @last modified:
+ */
+
+/* Estilo Geral */
+
+body{
+	margin: 0px 0px;
+	font-family: arial;
+	font-variant: small-caps;
+}
+
+div{
+	/*border: 1px dashed black;*/
+}
+
+.obrig{ color: #850e0e; }
+
+div#container{
+	width: 700px;
+	height: 500px;
+}
+
+hr {
+	margin: 0px auto;
+	border: none;
+	outline: none;
+	background: url(../img/separador2.png) repeat-x;
+	display: block;
+	width: 100%;
+	height: 1px;
+}
+
+/* Estilo do Header */
+div#header{
+	width: 100%;
+	height: 35px;
+}
+
+img#logo{
+	float: left;
+	width: 130px;
+}
+
+/* Estilo do Panel*/
+div#panel{
+	width: 100%;
+	height: 30px;
+	background-color: #AA0000;
+}
+
+h2{
+	text-align: center;
+	font-weight: normal;
+}
+/* Estilo do Formulario */
+
+div#content{
+	margin: 0px 0px;
+	width: 100%;
+}
+img#calendar{
+	width: 25px;
+}
+
+label{
+	font-variant: small-caps;
+}
+
+select{
+	height:36px;	
+}
+
+fieldset{
+	margin-top: 4px;
+}
+
+#dehortur, #atehortur, #qtdvag{
+	width: 50px;
+}
+
+#ddd{
+	width: 25px;
+}
