@@ -1,0 +1,36 @@
+<script type="text/javascript">
+baseUrl = "<?php echo $this->baseUrl(); ?>";
+</script>
+<div>
+	<form action="<?php echo $this->baseUrl();?>/admin/atividadeesportiva/create" class="form-horizontal" role="form" method="post" id="formulario">
+		<input type="hidden" value="1" name="submitted" /> 
+		<div class="panel panel-default" id="painel" style="width: 80%; margin-left:9%;">
+			<div class="panel-heading">
+				<h3 class="panel-title text-center">Atividade Esportiva</h3>
+			</div>
+			<div class="panel-body">
+
+				<!-- Nav tabs -->
+				<ul class="nav nav-tabs" role="tablist">
+				  	<li class="active"><a href="#ativesportiva" role="tab" data-toggle="tab">Ativ. Esportiva</a></li>
+				</ul>
+
+				<!-- Tab panes -->
+				<div class="tab-content">
+					<div class="tab-pane fade in active" id="ativesportiva">
+				  		<div class="form-content">
+				  			<div class="form-group">
+					  			<div class="col-md-8">
+							  		<label for="nomatv" class="control-label">Nome da Atividade: </label>
+									<input type="text" class="form-control" name="nomatv" maxlength="45" required/>
+								</div>
+							</div>
+						</div>
+				  	</div>
+				</div>
+				<button type="submit" class="btn btn-primary pull-right formul">Cadastrar</button>
+				<button type="reset" class="btn btn-warning pull-right formul">Limpar</button>
+			</div>
+		</div>
+	</form>
+</div>
